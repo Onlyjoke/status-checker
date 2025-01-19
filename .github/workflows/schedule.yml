@@ -1,6 +1,7 @@
 name: Daily Job
 
 on:
+  workflow_dispatch: # Дозволяє ручний запуск
   schedule:
     - cron: '35 9 * * *' # Запуск щодня о 09:35 UTC (10:35 Берліну)
 
