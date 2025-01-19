@@ -2,8 +2,7 @@ name: Daily Job
 
 on:
   schedule:
-    - cron: '0 9 * * *'
-  workflow_dispatch:
+    - cron: '*/5 * * * *'
 
 jobs:
   run-script:
